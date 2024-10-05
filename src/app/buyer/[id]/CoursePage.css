@@ -1,0 +1,95 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+:root {
+  --gold: #fde047;
+}
+
+/* Additional CSS rules for styling your React components */
+
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1;
+  }
+}
+
+.react-rater-star.is-active-half:before {
+  color: var(--gold) !important;
+}
+
+.react-rater-star.is-active {
+  color: var(--gold) !important;
+}
+.custom-image-gallery .image-gallery-slide img {
+  height: 300px; /* قم بتعديل الارتفاع حسب الحاجة */
+  object-fit: contain; /* لضمان ملاءمة الصورة للارتفاع المحدد */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.course-page {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .course-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .course-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .course-details, .course-description {
+    width: 45%;
+  }
+  
+  .course-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .price-box {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .discounted-price {
+    font-weight: bold;
+    color: green;
+  }
+  
+  .enroll-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

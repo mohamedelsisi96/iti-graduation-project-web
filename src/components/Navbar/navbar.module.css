@@ -1,0 +1,12 @@
+.cursor {
+    cursor: pointer;
+}
+
+.bar {
+    width: 100%;
+    background-color: #ff5733;
+    height: 10%;
+    position: relative;
+    top: 80%;
+    display: none;
+}

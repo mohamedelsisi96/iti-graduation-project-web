@@ -1,0 +1,88 @@
+/* WelcomePage.css
+.welcome-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.introduction, .featured-courses, .testimonials {
+  margin: 20px 0;
+}
+ */
+
+/* WelcomePage.css
+.welcome-page {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.header {
+  background-color: #007bff;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 5em;
+}
+
+.header h1 span {
+  color: #1e3a8a;
+}
+.header p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+.introduction, .featured-courses, .testimonials {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.introduction h2, .featured-courses h2, .testimonials h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #007bff;
+}
+
+.featured-courses ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.featured-courses li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.testimonials p {
+  font-style: italic;
+  margin: 10px 0;
+} */
+
+#wave {
+  .box {
+    --mask: radial-gradient(35.23px at 50% 49px, #000 99%, #0000 101%)
+        calc(50% - 40px) 0/80px 51% repeat-x,
+      radial-gradient(35.23px at 50% -29px, #0000 99%, #000 101%) 50% 20px/80px
+        calc(51% - 20px) repeat-x,
+      radial-gradient(35.23px at 50% calc(100% - 49px), #000 99%, #0000 101%)
+        calc(50% - 40px) 100%/80px 51% repeat-x,
+      radial-gradient(35.23px at 50% calc(100% + 29px), #0000 99%, #000 101%)
+        50% calc(100% - 20px) / 80px calc(51% - 20px) repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+  }
+}
