@@ -17,8 +17,6 @@ function MyLearning() {
   function openCourseDetails(id) {
     console.log(id);
   }
-<<<<<<< HEAD
-=======
 
   useEffect(() => {
     const fetchCourseDetails = async () => {
@@ -59,7 +57,6 @@ function MyLearning() {
     fetchCourseDetails();
   }, [selectedCourses]);
 
->>>>>>> c1e8dea578ba0e8d945183f6ab8e8de9d55b5db5
   async function getData() {
     try {
 <<<<<<< HEAD

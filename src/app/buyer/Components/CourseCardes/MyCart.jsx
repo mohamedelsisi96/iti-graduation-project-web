@@ -53,21 +53,14 @@ const Coursess = ({ handleRouteChange }) => {
       // 1. Update local state
       setCourses([]);
       setSearchTerm("");
-<<<<<<< HEAD
-      localStorage.removeItem("courseBuyerCart");
-
-      let buyerEmail = window.localStorage.getItem("email");
-=======
       if (window !== "undefined") {
         localStorage.removeItem("courseBuyerCart");
       }
       let buyerEmail = "";
       if (window !== "undefined") {
-        buyerEmail= window.localStorage.getItem("email");
+        buyerEmail = window.localStorage.getItem("email");
       }
->>>>>>> e0d10b54c9c3684e0ef799085f0bdf419cb39d32
       console.log("Buyer Email:", buyerEmail);
-
 
       // 2. Update external database (if you're still using this)
       await fetch("/api/update-user-courses", {
