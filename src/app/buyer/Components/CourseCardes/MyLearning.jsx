@@ -59,15 +59,11 @@ function MyLearning() {
 
   async function getData() {
     try {
-<<<<<<< HEAD
-      let buyerEmail = window.localStorage.getItem("email");
-=======
       let buyerEmail = "";
 
       if (window !== "undefined") {
         buyerEmail= window.localStorage.getItem("email");
       }
->>>>>>> e0d10b54c9c3684e0ef799085f0bdf419cb39d32
       const UserDataCollection = collection(db, "UserData");
       const q = query(UserDataCollection, where("email", "==", buyerEmail));
 
