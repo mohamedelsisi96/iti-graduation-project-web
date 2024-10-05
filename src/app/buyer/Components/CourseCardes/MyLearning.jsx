@@ -143,8 +143,6 @@ function MyLearning() {
           </div>
         ))}
       </div>
-<<<<<<< HEAD
-=======
       <div className="flex justify-evenly items-center">
         {/* {isLoading && <p>Loading...</p>} */}
         {error && <p>Error: {error}</p>}
@@ -159,7 +157,6 @@ function MyLearning() {
           </div>
         ))}
       </div>
->>>>>>> c1e8dea578ba0e8d945183f6ab8e8de9d55b5db5
     </div>
   );
 }
